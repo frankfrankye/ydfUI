@@ -24,10 +24,10 @@
           :placeholder="placeholder"
           :value="modelValue" @input="updateValue"
       />
-      <span v-if="suffixIcon" class="flex items-center justify-end cursor-pointer" @click="goBulkSearch">
+      <!-- <span v-if="suffixIcon" class="flex items-center justify-end cursor-pointer" @click="goBulkSearch">
         <img src="../assets/images/import.svg" alt="">
         <span class="ml-1 text-indigo-lg">Bulk Search</span>
-      </span>
+      </span> -->
     </div>
   </div>
 </template>
